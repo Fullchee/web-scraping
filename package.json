@@ -1,0 +1,37 @@
+{
+  "name": "web-scraping",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "check": "gts check",
+    "clean": "gts clean",
+    "compile": "tsc",
+    "fix": "gts fix",
+    "prepare": "yarn run compile",
+    "pretest": "yarn run compile",
+    "posttest": "yarn run check"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fullchee/web-scraping.git"
+  },
+  "author": "Fullchee Zhang <fullchee@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Fullchee/web-scraping/issues"
+  },
+  "homepage": "https://github.com/Fullchee/web-scraping#readme",
+  "dependencies": {
+    "puppeteer": "^5.3.1"
+  },
+  "devDependencies": {
+    "@types/node": "^13.11.1",
+    "gts": "^2.0.2",
+    "ts-node": "^9.0.0",
+    "tslint": "^6.1.3",
+    "typescript": "^3.8.3"
+  }
+}
