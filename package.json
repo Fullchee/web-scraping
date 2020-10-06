@@ -25,6 +25,8 @@
   },
   "homepage": "https://github.com/Fullchee/web-scraping#readme",
   "dependencies": {
+    "axios": "^0.20.0",
+    "dotenv": "^8.2.0",
     "puppeteer": "^5.3.1"
   },
   "devDependencies": {
